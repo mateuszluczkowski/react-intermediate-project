@@ -23,9 +23,9 @@ i18n
       backend: {
          // cors-anywhere is a trick. Don't use it in production
          loadPath:
-            "https://cors-anywhere.herokuapp.com/https://api.poeditor.com/v2/terms/list",
+            "https://thingproxy.freeboard.io/fetch/https://api.poeditor.com/v2/terms/list",
          addPath:
-            "https://cors-anywhere.herokuapp.com/https://api.poeditor.com/v2/terms/add",
+            "https://thingproxy.freeboard.io/fetch/https://api.poeditor.com/v2/terms/add",
          crossDomain: true,
          parse: (data) => {
             const parsedData = JSON.parse(data);

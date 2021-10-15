@@ -2,6 +2,9 @@ import { createGlobalStyle } from "styled-components";
 import { normalize } from "styled-normalize";
 const GlobalStyles = createGlobalStyle`
 ${normalize}
+*{
+   font-family: 'Noto Sans';
+}
 ul {
    list-style:none;
    margin:0;
