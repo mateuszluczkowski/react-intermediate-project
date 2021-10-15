@@ -25,7 +25,6 @@ function App({
       fetchBudgetedCategories(1);
    }, [fetchBudget, fetchBudgetedCategories]);
 
-   console.log(budget);
    const { i18n } = useTranslation();
    return (
       <>
