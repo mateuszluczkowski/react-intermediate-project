@@ -1,2 +1,4 @@
 import * as budget from "./budget.fetch";
-export { budget as API };
+import * as common from "./common.fetch";
+const API = { budget, common };
+export default API;
